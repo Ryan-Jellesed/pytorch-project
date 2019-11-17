@@ -1,0 +1,14 @@
+name: PyTorch-project
+channels:
+- defaults
+dependencies:
+- tqdm
+- jupyter
+- nltk
+- matplotlib
+- pandas
+- seaborn
+- scipy
+- python-annoy
+- numpy
+- requests
