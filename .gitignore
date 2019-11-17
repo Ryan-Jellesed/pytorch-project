@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 *.pth
 
 # C extensions
@@ -21,6 +22,13 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+=======
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
 build/
 develop-eggs/
 dist/
@@ -32,6 +40,7 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
@@ -40,6 +49,13 @@ var/
 # virtualenv
 venv/
 ENV/
+=======
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -59,8 +75,14 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
 .hypothesis/
+=======
+*.cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
 
 # Translations
 *.mo
@@ -69,9 +91,17 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
 
 # Flask instance folder
 instance/
+=======
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
 
 # Scrapy stuff:
 .scrapy
@@ -82,7 +112,11 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 # IPython Notebook
+=======
+# Jupyter Notebook
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
 .ipynb_checkpoints
 
 # pyenv
@@ -91,6 +125,7 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+<<<<<<< HEAD
 # dotenv
 .env
 
@@ -108,3 +143,29 @@ pip-delete-this-directory.txt
 .DS_Store
 
 attention/attention/data/processed_reviews/
+=======
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+>>>>>>> 3c8bd296a9aef891c4e70680f6fb42e265d1418b
