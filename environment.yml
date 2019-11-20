@@ -1,4 +1,4 @@
-name: pytorch-project
+name: PYtORCH
 channels:
   - pytorch
   - defaults
